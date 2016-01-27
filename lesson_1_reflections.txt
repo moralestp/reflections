@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It limited the amount of code I had to look at, and listed the changes in the two files "side-by-side", thus allowing me to quickly identify the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If a bug is present in the current file, one can revert to a previous version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros of manually choosing when to create a commit is that one has control over when the commit occurs so that they can occur at logical stopping points.  However, the con of manually choosing is that one may forget to commit after a long period of work, and the entire work can be lost if one's computer crashes.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I think Git allows saving multiples files in one commit because it is a platform that focuses on programming, and several related program files may need to be updated simultaneously, thus committing multiple files makes sense.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The command git log shows a listing of all the commits that have occurred.  The command git diff allows one to compare the changes that have occurred in the files between two different commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+I'm more confident in making changes knowing that if I break something I can always go back to the previous version which was working.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using Git for a new project where I'll store changes in different versions as I add features to the project.
