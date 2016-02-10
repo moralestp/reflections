@@ -17,3 +17,7 @@ Branches are helpful if one wants to try an experimental feature.  A new branch 
 How do the diagrams help you visualize the branch structure?
 
 The diagram helps one to visualize all the branches in the structure, and which commits form part of each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The previous commits of both branches are merged together.  It's represented in the diagram in the way it is in order to show that the resulting branch is a merge of the two branches.
