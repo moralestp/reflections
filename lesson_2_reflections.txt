@@ -25,3 +25,7 @@ The previous commits of both branches are merged together.  It's represented in 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
 The pros of Git's automatic merging are that the labor intensive work of merging them is handled by Git rather than having to manually do them by hand.  The con is that the automatic merge may result in the merging to take place in a way that was not intended (?)
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If multiple people are working on a project and pushing changes to the remote, you would want to manually pull changes so that you'd have a chance to review the changes, rather than just have the changes automatically pulled, even if your not okay with the changes.
