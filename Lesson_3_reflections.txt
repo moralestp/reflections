@@ -9,3 +9,8 @@ A clone is a repository you take from Git and "clone it", or copy it, to your lo
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 A benefit is that you have the latest changes of the remote accessible even if your offline.  Thus you could refer to them, and used them, even if your in a location where you can't get online to access the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+To collaborate without Git or GitHub, the collaborators would have to manually exchange files, either via email, dropbox, etc., and manually ask one another to review and/or make changes, then update the files, and again manually exchange files.  Not an efficient process.
+It would be much easier to use Git and GitHub.
